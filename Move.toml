@@ -2,6 +2,7 @@
 name = "sealbox_attestation"
 version = "1.0.0"
 authors = ["Rishidar-lab"]
+license = "MIT"
 
 [addresses]
 sealbox_attestation = "_"

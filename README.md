@@ -149,3 +149,7 @@ cd client && npm install && npm run attest -- ../artifact.txt
 - Named objects cannot be deleted, so revocations accumulate; `reference` is immutable in v1.
 - Testnet-only, unaudited, no production claim; the test suite is unit-level (no property
   tests) and the client is a single script.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
