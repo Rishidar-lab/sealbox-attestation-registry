@@ -1,0 +1,17 @@
+[package]
+name = "sealbox_attestation"
+version = "1.0.0"
+authors = ["Rishidar-lab"]
+
+[addresses]
+sealbox_attestation = "_"
+
+[dev-addresses]
+sealbox_attestation = "0xCAFE"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

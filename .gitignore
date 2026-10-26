@@ -1,0 +1,8 @@
+build/
+node_modules/
+client/dist/
+.env
+*.log
+
+# local Aptos CLI profile (never contains the key itself, but keep it out)
+.aptos/
