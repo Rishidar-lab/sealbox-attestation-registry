@@ -109,6 +109,9 @@ The private key comes from the Aptos CLI profile (project `.aptos/config.yaml`, 
 `~/.aptos/config.yaml`) or `APTOS_PRIVATE_KEY`. See `client/.env.example` — names only, values
 are never printed.
 
+`npm test` = `tsc --noEmit`; the client is a single script validated by typecheck, build and a
+live run, while the Move unit tests are the actual test suite.
+
 ## Testnet deployment
 
 Network: `testnet` · Module: `0x94f38b145c2790b5a4e42c2937a4b3f78c5463cb105ee20b4db4fa6a16a2e8f4::attestation`
